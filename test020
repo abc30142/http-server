@@ -1,0 +1,15 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>發送 LINE 訊息</title>
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+    <script>
+        $(function(){
+            $.post('https://maker.ifttt.com/trigger/line/with/key/b1cavahrBR8lrswFJuuc3l',{value1:'開台啦 https://www.twitch.tv/luby0313'});
+        });
+    </script>
+</body>
+</html>
